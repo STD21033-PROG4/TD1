@@ -1,6 +1,9 @@
 package com.prog4.TD1P1;
 
 import com.prog4.TD1P1.ClassSingleton;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class ClassSingletonTest {
