@@ -1,16 +1,20 @@
-package java.com.prog4.TD1P1;
+package com.prog4.TD1P1;
 
 
+import lombok.Data;
+
+@Data
 public class ClassSingleton {
     private static ClassSingleton INSTANCE;
     private String description;
 
-    private ClassSingleton() {
+    private ClassSingleton(String description) {
+        this.description = description;
     }
 
-    public static ClassSingleton getInstance() {
+    public static ClassSingleton getInstance(String text) {
         if(INSTANCE == null) {
-            INSTANCE = new ClassSingleton();
+            INSTANCE = new ClassSingleton(text);
         }
 
         return INSTANCE;

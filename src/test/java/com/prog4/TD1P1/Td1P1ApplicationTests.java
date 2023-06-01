@@ -1,4 +1,4 @@
-package java.com.prog4.TD1P1;
+package com.prog4.TD1P1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
